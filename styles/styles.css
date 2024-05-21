@@ -129,6 +129,14 @@ p {
     margin-bottom: 50px;
 }
 
+.submit:hover {
+    background-color: #728561;
+}
+
+.submit:active {
+    background-color: #7d8f6d;
+}
+
 .login {
     text-decoration: none;
     color: var(--button-color);
