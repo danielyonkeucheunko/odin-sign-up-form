@@ -13,8 +13,11 @@
     display: flex;
 }
 
+/* SIDEBAR CSS */
+
 .sidebar {
     width: 25%;
+    min-width: 300px;
     position: relative;
 }
 
@@ -58,4 +61,10 @@
 .redirect {
     text-decoration: underline;
     color: white;
+}
+
+/* MAIN CONTENT */
+
+.main-content {
+    width: 75%;
 }
