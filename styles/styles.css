@@ -1,7 +1,6 @@
 :root {
     --input-border-color: #e5e7eb;
     --button-color: #596d48;
-    overflow-y: hidden;
 }
 
 @font-face {
@@ -67,4 +66,88 @@
 
 .main-content {
     width: 75%;
+    font-family: Poppins;
+}
+
+.text-content {
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #f9fafb;
+    padding: 120px 0px 50px 75px;
+}
+.form-input-row {
+    display: flex;
+    flex-direction: row;
+    gap: 50px 100px;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    padding-bottom: 50px;
+}
+
+.form {
+    box-shadow: 0 10px 4px -9px gray;
+    border: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px 0px 50px 75px;
+    margin-top: 50px;
+}
+
+.header {
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.account {
+    padding-left: 75px;
+    padding-top: 30px;
+}
+
+.submit {
+    background-color: var(--button-color);
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 40px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px -7px gray;
+    margin-bottom: 50px;
+}
+
+.login {
+    text-decoration: none;
+    color: var(--button-color);
+    font-weight: 600;
+}
+
+input[type="password"]:invalid {
+    border-color: red;
+}
+
+input:focus {
+    border-color: rgb(0, 110, 255);
+    outline: none;
+    box-shadow: 0 5px 10px -7px gray;
+}
+
+input {
+    width: 200px;
+    height: 25px;
+    border: 1px solid var(--input-border-color);
+    border-radius: 5px;
 }
